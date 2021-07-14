@@ -1,0 +1,134 @@
+.menu {
+	a {
+		text-decoration: none;
+		color: white;
+		margin-right: 15px;
+	}
+}
+.icons{
+	i{
+		color: white;
+		 
+	}
+}
+.mainPart{
+	overflow: hidden;
+.blue-line{
+	  img{
+		  height: 1360px; 
+		  width: 100%;
+		  z-index: 0;
+  	  }
+		.layers{
+			position: absolute;
+			top: 110%;
+			 margin: 0 2%;
+			 color: white;
+			img{
+				width: 290px;
+				height: 300px;
+			}
+		}
+ }	
+ .micro{
+	img{
+          
+		 transform: scale(1.7) translateX(103px);
+ 	}
+
+}
+}
+
+
+
+.header-text{
+	margin-top: 100px;
+	h1{
+		// font-family: sans-serif;
+        // margin: 100px auto;
+        color: #16b0f8;
+        text-align: center;
+        font-size: 100px;
+		font-weight: bold;
+         position: relative;
+	}
+ 
+h1::before{ 
+	    content: "";
+        display: block;
+        width: 400px;
+        height: 55px;
+        background: #f5efef;
+        left: 0;
+        top: 30%;
+        position: absolute;
+
+}
+h1::after {
+        content: "";
+        display: block;
+        width: 400px;
+        height: 55px;
+        background: #f5efef;
+        right: 0;
+        top: 30%;
+        position: absolute;
+}
+}
+
+ 
+.footerPart{
+	 	   .footer-image{
+				width: 100%;
+				height: 1280px;
+			}
+.footer-divs{
+	  position: absolute;
+	  top:65%;
+	  width: 100%;
+	  justify-content: center;
+	  margin: 0 auto;
+	  padding: 0 40px;
+	  p{
+		  font-size: 15px;
+		  line-height: 18px;
+	  }
+	  h4{
+		  font-size: 17px;
+	  }
+ 	  .links{
+		  a{
+			  display: block;
+			  text-decoration: none;
+			  color: gray;
+		  }
+	  }
+ }
+}
+ 
+
+// Special Part: 
+.special-text{
+	background-color: #f5efef;
+	margin-top: 150px;
+	padding-left:140px ;
+	padding-right: 150px;
+	p{
+		font-size: 15px;
+	}
+	h4{
+		font-size: 20px;
+		color: #16b0f8;
+	}
+}
+.special-image{
+	height: 500px;
+	transform: translateX(-30px) translateY(-90px);
+}
+
+.special-color{
+	 font-size: 40px;
+	background: -webkit-linear-gradient(#0bbafb,#4285ec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

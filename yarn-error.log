@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Ahsan\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add bootstrapyarn add bootstrap
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Ahsan\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Ahsan\AppData\Local\Microsoft\WindowsApps;C:\Users\Ahsan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ahsan\AppData\Local\atom\bin;C:\Users\Ahsan\AppData\Local\GitHubDesktop\bin;C:\Users\Ahsan\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\Ahsan\AppData\Roaming\npm;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.9.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bootstrapyarn: Not found
+      at Request.params.callback [as _callback] (C:\Users\Ahsan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\Ahsan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (node:events:378:20)
+      at Request.<anonymous> (C:\Users\Ahsan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (node:events:378:20)
+      at IncomingMessage.<anonymous> (C:\Users\Ahsan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (node:events:484:28)
+      at IncomingMessage.emit (node:events:390:22)
+      at endReadableNT (node:internal/streams/readable:1307:12)
+      at processTicksAndRejections (node:internal/process/task_queues:81:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

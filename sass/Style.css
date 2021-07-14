@@ -1,0 +1,113 @@
+.menu a {
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+}
+
+.icons i {
+  color: white;
+}
+
+.mainPart {
+  overflow: hidden;
+}
+.mainPart .blue-line img {
+  height: 1360px;
+  width: 100%;
+  z-index: 0;
+}
+.mainPart .blue-line .layers {
+  position: absolute;
+  top: 110%;
+  margin: 0 2%;
+  color: white;
+}
+.mainPart .blue-line .layers img {
+  width: 290px;
+  height: 300px;
+}
+.mainPart .micro img {
+  transform: scale(1.7) translateX(103px);
+}
+
+.header-text {
+  margin-top: 100px;
+}
+.header-text h1 {
+  color: #16b0f8;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  position: relative;
+}
+.header-text h1::before {
+  content: "";
+  display: block;
+  width: 400px;
+  height: 55px;
+  background: #f5efef;
+  left: 0;
+  top: 30%;
+  position: absolute;
+}
+.header-text h1::after {
+  content: "";
+  display: block;
+  width: 400px;
+  height: 55px;
+  background: #f5efef;
+  right: 0;
+  top: 30%;
+  position: absolute;
+}
+
+.footerPart .footer-image {
+  width: 100%;
+  height: 1280px;
+}
+.footerPart .footer-divs {
+  position: absolute;
+  top: 65%;
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.footerPart .footer-divs p {
+  font-size: 15px;
+  line-height: 18px;
+}
+.footerPart .footer-divs h4 {
+  font-size: 17px;
+}
+.footerPart .footer-divs .links a {
+  display: block;
+  text-decoration: none;
+  color: gray;
+}
+
+.special-text {
+  background-color: #f5efef;
+  margin-top: 150px;
+  padding-left: 140px;
+  padding-right: 150px;
+}
+.special-text p {
+  font-size: 15px;
+}
+.special-text h4 {
+  font-size: 20px;
+  color: #16b0f8;
+}
+
+.special-image {
+  height: 500px;
+  transform: translateX(-30px) translateY(-90px);
+}
+
+.special-color {
+  font-size: 40px;
+  background: -webkit-linear-gradient(#0bbafb, #4285ec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}/*# sourceMappingURL=Style.css.map */
